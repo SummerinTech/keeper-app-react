@@ -23,11 +23,11 @@
 .Footer {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12px;
-	color: var(--orange-color);
+	color: var(--gray-color);
 	padding: 1%;
 }
 
 .Footer a {
-	color: var(--gray-color);
+	color: var(--orange-color);
 	text-decoration: none;
 }
