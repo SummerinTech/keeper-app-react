@@ -20,6 +20,50 @@
 	padding: 1%;
 }
 
+.CreateArea {
+	font-family: "Roboto", sans-serif;
+	color: rgb(32, 33, 36);
+	width: 466px;
+	/* height: 134px; */
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	border-color: #e0e0e0;
+	border: 1px solid transparent;
+	margin: 2% auto;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/* .create-form {
+
+} */
+
+.create-form input {
+	display: block;
+	border: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	padding: 10px 15px;
+	color: #202124;
+	outline: none;
+}
+
+.create-form textarea {
+	display: block;
+	border: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	padding: 10px 15px;
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	resize: none;
+	outline: none;
+}
+
 .Footer {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12px;
