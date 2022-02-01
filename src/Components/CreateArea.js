@@ -15,6 +15,7 @@ const CreateArea = () => {
 					rows={isReady ? "3" : "1"}
 					placeholder="Take a note..."
 				/>
+				<button>+</button>
 			</form>
 		</div>
 	);
