@@ -2,12 +2,14 @@ import "./App.css";
 import Header from "./Components/Header";
 import CreateArea from "./Components/CreateArea";
 import Footer from "./Components/Footer";
+import Note from "./Components/Note";
 
 function App() {
 	return (
 		<div className="App">
 			<Header />
 			<CreateArea />
+			<Note />
 			<Footer />
 		</div>
 	);
