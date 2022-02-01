@@ -1,6 +1,7 @@
 :root {
 	--orange-color: #f5bb44;
 	--gray-color: #5f6368;
+	--roboto-font: "Roboto", sans-serif;
 }
 
 .App {
@@ -10,20 +11,21 @@
 /* Header component */
 .Header {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	box-shadow: inset 1px 1px 0 rgb(0 0 0 / 10%), inset 0 -1px 0 rgb(0 0 0 / 7%);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+	background-color: var(--orange-color);
 }
 
 .Header h2 {
 	text-align: left;
-	font-size: 22px;
+	font-size: 28px;
 	font-weight: 200;
-	color: var(--gray-color);
+	color: white;
 	padding: 1%;
 }
 
 /* Create Area Component */
 .CreateArea {
-	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
 	color: rgb(32, 33, 36);
 	margin: 2% auto;
 }
@@ -41,7 +43,7 @@ form {
 .create-form input {
 	display: block;
 	border: none;
-	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
@@ -54,7 +56,7 @@ form {
 .create-form textarea {
 	display: block;
 	border: none;
-	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
 	font-size: 14px;
 	padding: 10px 15px;
 	font-weight: 400;
@@ -96,12 +98,20 @@ form button {
 .Note h1 {
 	font-size: 1.1em;
 	margin-bottom: 6px;
+	text-align: left;
+	font-family: var(--roboto-font);
+	padding: 5px 10px;
+	font-size: 16px;
 }
 .Note p {
+	text-align: left;
 	font-size: 1.1em;
 	margin-bottom: 10px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	font-family: var(--roboto-font);
+	padding: 5px 10px;
+	font-size: 15px;
 }
 
 .Note button {
