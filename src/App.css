@@ -1,5 +1,6 @@
 :root {
 	--orange-color: #f5bb44;
+	--gray-color: #5f6368;
 }
 
 .App {
@@ -15,7 +16,7 @@
 	text-align: left;
 	font-size: 22px;
 	font-weight: 200;
-	color: #5f6368;
+	color: var(--gray-color);
 	padding: 1%;
 }
 
@@ -27,6 +28,6 @@
 }
 
 .Footer a {
-	color: #5f6368;
+	color: var(--gray-color);
 	text-decoration: none;
 }
