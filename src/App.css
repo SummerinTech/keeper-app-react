@@ -80,7 +80,7 @@ form button {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 	cursor: pointer;
 	outline: none;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .Footer {
@@ -88,6 +88,15 @@ form button {
 	font-size: 12px;
 	color: var(--gray-color);
 	padding: 1%;
+	position: relative;
+	padding-bottom: 450px;
+}
+
+.Footer footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 .Footer a {
