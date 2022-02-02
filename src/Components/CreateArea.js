@@ -15,13 +15,12 @@ const CreateArea = ({ onAdd }) => {
 				[name]: value,
 			};
 		});
-		console.log(inputValue);
 	};
 
 	const handleClick = (e) => {
 		e.preventDefault();
 		onAdd(inputValue);
-		setInputValue("");
+		setInputValue({ title: "", content: "" });
 	};
 
 	return (
